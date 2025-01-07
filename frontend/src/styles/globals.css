@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@keyframes infiniteScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-infinite-scroll {
+  animation: infiniteScroll 15s linear infinite;
+}
+
+@font-face {
+  font-family: 'Antipasto Pro';
+  src: url('/fonts/AntipastoPro-Bold_trial.ttf') format('truetype');
+  font-weight: 800px;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Antipasto ExPro';
+  src: url('/fonts/AntipastoPro-ExtraBold_trial.ttf') format('truetype');
+  font-weight: 800px;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Antipasto ExxPro';
+  src: url('./src/fonts/AntipastoPro-Medium_trial.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'New';
+  src: url('AntipastoPro-Bold_trial.ttf') format('truetype');
+  font-weight: 800px;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'New2';
+  src: url('Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 800px;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'New3';
+  src: url('AntipastoPro-Medium_trial.ttf') format('truetype');
+  font-weight: 800px;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Antipasto';
+  src: url('/fonts/AntipastoPro-Hairline_trial.ttf') format('truetype');
+  font-weight: 400px;
+  font-style: normal;
+} 
+@font-face {
+  font-family: 'Necosmic';
+  src: url('/fonts/Necosmic-PersonalUse-BF6575d8c68fd8b.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Astroz', sans-serif;  
+}
+
+h2, input, label, button { 
+  font-family: 'Antipasto Pro', sans-serif;  
+}
+
+
+h2 {  
+  font-weight: 700;  
+  font-size: 30px;  
+  line-height: 40px;  
+  letter-spacing: 3%;  
+  text-align: center; 
+  vertical-align: middle;  
+  margin: 0; 
+  color:white;
+}
+
+input,
+label,
+button ,a{  
+  line-height: 40px; 
+  font-weight: 700; 
+
+}
