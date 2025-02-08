@@ -6,10 +6,6 @@
 
 HackTrack est une plateforme avancée de suivi des activités de cybersécurité et de gestion des challenges de Capture The Flag (CTF).
 
-## 📌 Démo
-
-![HackTrack Demo](https://your-demo-link.com/demo.gif)
-
 ## ✨ Fonctionnalités
 
 ✅ Suivi en temps réel des challenges CTF
